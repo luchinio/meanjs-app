@@ -28,7 +28,12 @@ var ArticleSchema = new Schema({
 	user: {
 		type: Schema.ObjectId,
 		ref: 'User'
-	}
+	},
+	spname: { // nombres de los proveedores
+		 type: String,
+		 default: '',
+		 trim: true  // recorta espacios en blanco, ej : " hola " > "hola"
+	}	
 });
 
 mongoose.model('Article', ArticleSchema);

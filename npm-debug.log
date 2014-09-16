@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'update',
+1 verbose cli   '-g',
+1 verbose cli   'generator-meanjs' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose url raw generator-meanjs
+5 verbose url resolving [ 'https://registry.npmjs.org/', './generator-meanjs' ]
+6 verbose url resolved https://registry.npmjs.org/generator-meanjs
+7 info trying registry request attempt 1 at 21:14:40
+8 http GET https://registry.npmjs.org/generator-meanjs
+9 http 200 https://registry.npmjs.org/generator-meanjs
+10 silly registry.get cb [ 200,
+10 silly registry.get   { date: 'Tue, 16 Sep 2014 00:14:41 GMT',
+10 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+10 silly registry.get     etag: '"1NJDLGO3T683CL7EIP1O6MBH7"',
+10 silly registry.get     'content-type': 'application/json',
+10 silly registry.get     'cache-control': 'max-age=60',
+10 silly registry.get     'content-length': '36614',
+10 silly registry.get     'accept-ranges': 'bytes',
+10 silly registry.get     via: '1.1 varnish',
+10 silly registry.get     age: '0',
+10 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+10 silly registry.get     'x-cache': 'MISS',
+10 silly registry.get     'x-cache-hits': '0',
+10 silly registry.get     'x-timer': 'S1410826480.951060,VS0,VE87',
+10 silly registry.get     vary: 'Accept',
+10 silly registry.get     'keep-alive': 'timeout=10, max=50',
+10 silly registry.get     connection: 'Keep-Alive' } ]
+11 info outdated updating [ [ '/usr/local/lib',
+11 info outdated     'generator-meanjs',
+11 info outdated     '0.1.5',
+11 info outdated     '0.1.9',
+11 info outdated     '0.1.9',
+11 info outdated     '*' ] ]
+12 verbose install where,what [ '/usr/local/lib', [ 'generator-meanjs@0.1.9' ] ]
+13 verbose cache add [ 'generator-meanjs@0.1.9', null ]
+14 verbose cache add name=undefined spec="generator-meanjs@0.1.9" args=["generator-meanjs@0.1.9",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'generator-meanjs@0.1.9',
+15 verbose parsed url   path: 'generator-meanjs@0.1.9',
+15 verbose parsed url   href: 'generator-meanjs@0.1.9' }
+16 verbose cache add name="generator-meanjs" spec="0.1.9" args=["generator-meanjs","0.1.9"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '0.1.9',
+17 verbose parsed url   path: '0.1.9',
+17 verbose parsed url   href: '0.1.9' }
+18 verbose addNamed [ 'generator-meanjs', '0.1.9' ]
+19 verbose addNamed [ '0.1.9', '0.1.9' ]
+20 silly lockFile e7580552-generator-meanjs-0-1-9 generator-meanjs@0.1.9
+21 verbose lock generator-meanjs@0.1.9 /Users/lucio/.npm/e7580552-generator-meanjs-0-1-9.lock
+22 verbose registry.get generator-meanjs not expired, no request
+23 silly lockFile 3629cb0a-eanjs-generator-meanjs-0-1-9-tgz https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.9.tgz
+24 verbose lock https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.9.tgz /Users/lucio/.npm/3629cb0a-eanjs-generator-meanjs-0-1-9-tgz.lock
+25 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.9.tgz',
+25 verbose addRemoteTarball   'a8003b03079928f2dbdb046fd225125461dfb1e2' ]
+26 info retry fetch attempt 1 at 21:14:42
+27 verbose fetch to= /var/folders/r7/5_s134416fv_fvvlwsq4qr000000gn/T/npm-2527-7SJiQqFD/registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.9.tgz
+28 http GET https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.9.tgz
+29 http 200 https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.9.tgz
+30 silly lockFile 3629cb0a-eanjs-generator-meanjs-0-1-9-tgz https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.9.tgz
+31 silly lockFile 3629cb0a-eanjs-generator-meanjs-0-1-9-tgz https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.9.tgz
+32 silly lockFile e7580552-generator-meanjs-0-1-9 generator-meanjs@0.1.9
+33 silly lockFile e7580552-generator-meanjs-0-1-9 generator-meanjs@0.1.9
+34 silly resolved [ { name: 'generator-meanjs',
+34 silly resolved     version: '0.1.9',
+34 silly resolved     description: 'MEAN.JS Official Yeoman Generator',
+34 silly resolved     main: 'app/index.js',
+34 silly resolved     repository: { type: 'git', url: 'git://github.com/meanjs/generator-meanjs' },
+34 silly resolved     author:
+34 silly resolved      { name: 'MEAN.JS Team',
+34 silly resolved        email: 'support@meanjs.org',
+34 silly resolved        url: 'https://github.com/meanjs' },
+34 silly resolved     engines: { node: '>=0.10.0' },
+34 silly resolved     scripts: { test: 'mocha' },
+34 silly resolved     keywords:
+34 silly resolved      [ 'yeoman-generator',
+34 silly resolved        'scaffold',
+34 silly resolved        'framework',
+34 silly resolved        'component',
+34 silly resolved        'front-end',
+34 silly resolved        'app',
+34 silly resolved        'mean',
+34 silly resolved        'meanjs',
+34 silly resolved        'node',
+34 silly resolved        'express',
+34 silly resolved        'angular' ],
+34 silly resolved     dependencies:
+34 silly resolved      { 'yeoman-generator': '~0.17.1',
+34 silly resolved        chalk: '~0.5.1',
+34 silly resolved        'underscore.inflections': '~0.2.1' },
+34 silly resolved     devDependencies:
+34 silly resolved      { assert: '~1.1.1',
+34 silly resolved        async: '~0.9.0',
+34 silly resolved        'fs-extra': '~0.10.0',
+34 silly resolved        mocha: '~1.21.3',
+34 silly resolved        temp: '~0.8.0' },
+34 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+34 silly resolved     licenses: [ [Object] ],
+34 silly resolved     bugs: { url: 'https://github.com/meanjs/generator-meanjs/issues' },
+34 silly resolved     homepage: 'https://github.com/meanjs/generator-meanjs',
+34 silly resolved     _id: 'generator-meanjs@0.1.9',
+34 silly resolved     dist:
+34 silly resolved      { shasum: 'a8003b03079928f2dbdb046fd225125461dfb1e2',
+34 silly resolved        tarball: 'http://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.9.tgz' },
+34 silly resolved     _from: 'generator-meanjs@0.1.9',
+34 silly resolved     _npmVersion: '1.4.3',
+34 silly resolved     _npmUser: { name: 'amoshaviv', email: 'mail@amoshaviv.com' },
+34 silly resolved     maintainers: [ [Object] ],
+34 silly resolved     directories: {},
+34 silly resolved     _shasum: 'a8003b03079928f2dbdb046fd225125461dfb1e2',
+34 silly resolved     _resolved: 'https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.9.tgz' } ]
+35 info install generator-meanjs@0.1.9 into /usr/local/lib
+36 info installOne generator-meanjs@0.1.9
+37 info /usr/local/lib/node_modules/generator-meanjs unbuild
+38 info preuninstall generator-meanjs@0.1.5
+39 info uninstall generator-meanjs@0.1.5
+40 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-meanjs@0.1.5
+41 info postuninstall generator-meanjs@0.1.5
+42 info /usr/local/lib/node_modules/generator-meanjs unbuild
+43 info preuninstall generator-meanjs@0.1.5
+44 info uninstall generator-meanjs@0.1.5
+45 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-meanjs@0.1.5
+46 info postuninstall generator-meanjs@0.1.5
+47 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/generator-meanjs'
+47 error error rolling back  generator-meanjs@0.1.9 { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-meanjs']
+47 error error rolling back   errno: 3,
+47 error error rolling back   code: 'EACCES',
+47 error error rolling back   path: '/usr/local/lib/node_modules/generator-meanjs' }
+48 error Error: EACCES, unlink '/usr/local/lib/node_modules/generator-meanjs'
+48 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-meanjs']
+48 error   errno: 3,
+48 error   code: 'EACCES',
+48 error   path: '/usr/local/lib/node_modules/generator-meanjs' }
+49 error Please try running this command again as root/Administrator.
+50 error System Darwin 13.3.0
+51 error command "node" "/usr/local/bin/npm" "update" "-g" "generator-meanjs"
+52 error cwd /Users/lucio/Documents/workspace/meanjs-app
+53 error node -v v0.10.29
+54 error npm -v 1.4.14
+55 error path /usr/local/lib/node_modules/generator-meanjs
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/generator-meanjs'
+59 verbose exit [ 3, true ]
